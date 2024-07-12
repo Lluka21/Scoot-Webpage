@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", sans-serif;
+}
+
+.nav_bar {
+  width: 1480px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid;
+  padding: 15px 15px 15px 15px;
+  border: none;
+  background-color: hsl(40, 97%, 58%);
+  color: #fff;
+  letter-spacing: 1.23px;
+  font-weight: 600;
+  font-family: "Space Mono", sans-serif;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.about {
+  background-image: url(/assets/images/about-hero-desktop.jpg);
+}
+
+.about_section {
+  width: 1606px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.about_section h1 {
+  font-size: 50px;
+}
+
+/* FLEX SECTION1 */
+
+.flex_section1 {
+  width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.flex_image1 img {
+  border-radius: 50%;
+}
+
+.first_description1 h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: hsl(216, 17%, 35%);
+  width: 50%;
+}
+
+.first_description1 p {
+  width: 57%;
+  color: hsl(216, 17%, 35%);
+}
+
+/* FLEX SECTION2 */
+
+.flex_section2 {
+  width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 500px;
+}
+
+.flex_image2 img {
+  border-radius: 50%;
+}
+
+.second_description2 h2 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: hsl(216, 17%, 35%);
+  width: 55%;
+}
+
+.second_description2 p {
+  width: 110%;
+  color: hsl(216, 17%, 35%);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: hsl(216, 17%, 35%);
+  font-size: 20px;
+}
+
+.values {
+  width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  margin-bottom: 200px;
+}
+
+.values img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.values h4 {
+  margin-bottom: 30px;
+  color: hsl(216, 17%, 35%);
+}
+.values p {
+  color: hsl(216, 17%, 35%);
+}
+
+/* FAQs */
+
+.asked_questions {
+  width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: hsl(216, 17%, 35%);
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.transition1 {
+  border-radius: 98%;
+  width: 72px;
+  padding: 20px;
+  transform: translateY(-72px);
+  background-color: hsl(40, 97%, 58%);
+  border: none;
+  margin-top: 4px;
+  margin-left: 208px;
+  margin-bottom: 5px;
+  color: hsl(216, 17%, 35%);
+}
+.transition2 {
+  border-radius: 98%;
+  width: 72px;
+  padding: 20px;
+  transform: translateY(-72px);
+  background-color: hsl(40, 97%, 58%);
+  border: none;
+  margin-top: 4px;
+  margin-left: 181px;
+  margin-bottom: 5px;
+  color: hsl(216, 17%, 35%);
+}
+.transition3 {
+  border-radius: 98%;
+  width: 72px;
+  padding: 20px;
+  transform: translateY(-72px);
+  background-color: hsl(40, 97%, 58%);
+  border: none;
+  margin-top: 4px;
+  margin-left: 193px;
+  margin-bottom: 5px;
+  color: hsl(216, 17%, 35%);
+}
+
+/* question section */
+
+.question {
+  display: flex;
+  justify-content: center;
+  color: hsl(216, 17%, 35%);
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.how_section {
+  color: hsl(216, 17%, 35%);
+  font-size: 40px;
+  margin-top: -205px;
+}
+
+.container {
+  width: 1480px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  background-color: hsl(214, 37%, 96%);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  color: hsl(216, 17%, 35%);
+}
+.nearby_scoot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  background-color: hsl(214, 37%, 96%);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  color: hsl(216, 17%, 35%);
+}
+.license {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  background-color: hsl(214, 37%, 96%);
+  padding-top: 15px;
+  padding-left: 11px;
+  padding-right: 20px;
+  color: hsl(216, 17%, 35%);
+}
+
+/* DRIVING SECTION */
+
+.container2 {
+  width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.safe_driving {
+  color: hsl(216, 17%, 35%);
+  font-size: 40px;
+  margin-top: -205px;
+}
+
+.helmet_question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  color: hsl(216, 17%, 35%);
+}
+.rules_question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  color: hsl(216, 17%, 35%);
+}
+.damage_question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(214, 37%, 96%);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  color: hsl(216, 17%, 35%);
+  margin-bottom: 200px;
+}
+
+/* ENDING */
+
+.ending-section {
+  background-color: hsl(216, 17%, 35%);
+  background-size: cover;
+}
+
+.ending-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1480px;
+  margin: 0 auto;
+}
+
+.ending-content h3 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  color: #fff;
+  width: 60%;
+}
+
+.white_circles {
+  width: 1480px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer_section {
+  background-color: hsla(215, 15%, 24%, 0.507);
+}
+
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 1480px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo_list ul {
+  color: hsl(212, 41%, 93%);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}

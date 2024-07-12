@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", sans-serif;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 15px 15px 15px 15px;
+  border: none;
+  letter-spacing: 1px;
+  font-family: "Space Mono", sans-serif;
+  background-color: hsl(40, 97%, 58%);
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn2 {
+  padding: 15px 15px 15px 15px;
+  border: none;
+  letter-spacing: 2px;
+  font-family: "Space Mono", sans-serif;
+  background-color: hsl(40, 97%, 58%);
+  color: #fff;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.about {
+  background-image: url(/assets/images/careers-locations-hero-desktop.jpg);
+  padding: 70px 70px;
+}
+
+.about_section {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 20px;
+}
+
+.first_content {
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 270px;
+}
+
+.join h2,
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: hsl(216, 17%, 35%);
+}
+
+.join h2 {
+  width: 70%;
+  font-size: 35px;
+}
+
+.join_image img {
+  border-radius: 50%;
+  margin-bottom: 120px;
+}
+
+.join p {
+  margin-bottom: 20px;
+}
+
+.join_us {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 100px;
+  font-size: 21px;
+}
+
+/* FLEX LIST */
+
+.flex_list {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(216, 17%, 35%);
+  margin-bottom: 100px;
+}
+
+.main {
+  font-family: "Space Mono", sans-serif;
+}
+.flex_list img {
+  border-radius: 50%;
+  margin-bottom: 1px;
+}
+
+.join_us {
+  color: hsl(216, 17%, 35%);
+}
+
+.circle {
+  border-radius: 64%;
+  width: 63px;
+  padding: 20px;
+  transform: translateY(-44px);
+  background-color: hsl(40, 97%, 58%);
+  border: none;
+  margin-top: 4px;
+  margin-left: 170px;
+  margin-bottom: 5px;
+  color: hsl(216, 17%, 35%);
+  font-weight: 700;
+  font-family: "Space Mono", sans-serif;
+}
+
+.second_circle {
+  border-radius: 64%;
+  width: 63px;
+  padding: 20px;
+  transform: translateY(-44px);
+  background-color: hsl(40, 97%, 58%);
+  border: none;
+  margin-top: 4px;
+  margin-left: 150px;
+  margin-bottom: 5px;
+  color: hsl(216, 17%, 35%);
+  font-weight: 700;
+  font-family: "Space Mono", sans-serif;
+}
+
+.main {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.description {
+  width: 106%;
+}
+
+/* JOBS */
+
+/* general manager */
+
+.general_manager {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 40px;
+  margin-top: 200px;
+  padding: 35px 35px 35px 35px;
+}
+
+.general_manager h2 {
+  font-size: 27px;
+  color: hsl(216, 17%, 35%);
+}
+
+.btn_apply {
+  padding: 20px;
+  border: none;
+  letter-spacing: 1px;
+  font-family: "Space Mono", sans-serif;
+  background-color: hsl(40, 97%, 58%);
+  color: #fff;
+  font-weight: 600;
+  width: 212px;
+  padding-left: 79px;
+}
+
+/* designer */
+.designer {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 40px;
+  padding: 35px 35px 35px 35px;
+}
+
+.designer h2 {
+  font-size: 27px;
+  color: hsl(216, 17%, 35%);
+}
+
+/* copywrighter */
+.copywrighter {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 40px;
+  padding: 35px 35px 35px 35px;
+}
+
+.copywrighter h2 {
+  font-size: 27px;
+  color: hsl(216, 17%, 35%);
+}
+
+/* graphic designer */
+
+.graphic_designer {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 40px;
+  padding: 35px 35px 35px 35px;
+}
+
+.graphic_designer h2 {
+  font-size: 27px;
+  color: hsl(216, 17%, 35%);
+}
+
+/* supervisor */
+
+.supervisor {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 40px;
+  padding: 35px 35px 35px 35px;
+}
+
+.supervisor h2 {
+  font-size: 27px;
+  color: hsl(216, 17%, 35%);
+}
+
+/* analyst */
+
+.analyst {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(214, 37%, 96%);
+  margin-bottom: 300px;
+  padding: 35px 35px 35px 35px;
+}
+
+.analyst h2 {
+  font-size: 27px;
+  color: hsl(216, 17%, 35%);
+}
+
+/* footer */
+
+.ending-section {
+  background-color: hsl(216, 17%, 35%);
+  background-size: cover;
+}
+
+.ending-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.ending-content h3 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  color: #fff;
+  width: 60%;
+}
+
+.white_circles {
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer_section {
+  background-color: hsla(215, 15%, 24%, 0.507);
+}
+
+.footer_flex {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo_list ul {
+  display: flex;
+  color: #fff;
+  list-style-type: none;
+  align-items: center;
+  gap: 30px;
+}

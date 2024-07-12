@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", sans-serif;
+}
+
+.nav-bar {
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid;
+  padding: 15px 15px 15px 15px;
+  border: none;
+  background-color: hsl(40, 97%, 58%);
+  color: #fff;
+  letter-spacing: 1.23px;
+  font-weight: 600;
+  font-family: "Space Mono", sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.location {
+  background-image: url(/assets/images/careers-locations-hero-desktop.jpg);
+}
+
+.location_section {
+  width: 1400px;
+  margin: 0 auto;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 120px;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.description {
+  width: 60%;
+}
+
+.list_city h2 {
+  color: hsl(216, 17%, 35%);
+}
+
+.message_btn {
+  border: 1px solid;
+  padding: 15px 15px 15px 15px;
+  border: none;
+  background-color: hsl(40, 97%, 58%);
+  color: #fff;
+  letter-spacing: 1.23px;
+  font-weight: 600;
+  font-family: "Space Mono", sans-serif;
+}
+
+.ending-section {
+  background-color: hsl(216, 17%, 35%);
+  background-size: cover;
+}
+
+.ending-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1480px;
+  margin: 0 auto;
+}
+
+.ending-content h3 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  color: #fff;
+  width: 60%;
+}
+
+.white_circles {
+  width: 1480px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer_section {
+  background-color: hsla(215, 15%, 24%, 0.507);
+}
+
+.footer_flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 1480px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo_list ul {
+  color: hsl(212, 41%, 93%);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
